@@ -1,6 +1,6 @@
 ##  PRICING-CARDS
 
-A Simple pricing-cards packages that we often see on paid websites like (NETFIX, DISNEY, and many more).Its build with just *HTML* and *CSS*.I practice this to get a strong grip on *CSS* and its important fundamentals like flex, grid, @keyframes and @media.
+A Simple pricing-cards packages that we often see on paid websites like (NETFLIX, DISNEY, and many more).Its build with just *HTML* and *CSS*.I practice this to get a strong grip on *CSS* and its important fundamentals like flex, grid, @keyframes and @media.
 
 ------------------
 
@@ -16,7 +16,7 @@ A Simple pricing-cards packages that we often see on paid websites like (NETFIX,
 
 ## TECHNOLOGY
 
-1. ** HTML**
+1. **HTML**
 2. **CSS**
 
 ---------------------------------------
@@ -34,7 +34,7 @@ Here's what the page look like
 
 ## LIVE DEMO 🌐
 
-- [Click here for live demo]()
+- [Click here for live demo]( https://amnaakhtar1213.github.io/pricing-cards/)
 
 ---------------------------------------
 

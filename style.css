@@ -295,3 +295,82 @@ h3{
 .btn-accent {
   animation: pulse 2s infinite;
 }
+
+
+
+
+@media (max-width: 1024px) {
+  header h1 {
+    font-size: 2.2rem;
+  }
+  header p {
+    font-size: 1rem;
+  }
+  .pricing-cards {
+    gap: 20px;
+  }
+  .quote {
+    padding: 30px;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+  body {
+    padding: 20px 10px;
+  }
+  header {
+    margin-bottom: 25px;
+  }
+  header h1 {
+    font-size: 1.8rem;
+  }
+  header p {
+    font-size: 0.95rem;
+  }
+  .pricing-cards {
+    grid-template-columns: 1fr; /* stack cards */
+    min-width: unset;           /* remove 400px restriction */
+    margin: 0 auto 30px;
+  }
+  .card {
+    margin: 0 auto;
+  }
+  .quote {
+    padding: 20px;
+    font-size: 1rem;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+  header p {
+    font-size: 0.85rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  .amount {
+    font-size: 2.5rem;
+  }
+  .features li {
+    font-size: 0.85rem;
+  }
+  .testimonial {
+    flex-direction: column;
+    align-items: center;
+  }
+  .author {
+    flex-direction: column;
+    text-align: center;
+  }
+  .avatar {
+    margin-bottom: 10px;
+  }
+  .quote i{
+    display: none;
+  }
+}
